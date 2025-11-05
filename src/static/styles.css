@@ -158,8 +158,9 @@ footer {
 
 .participants-list {
   margin-top: 6px;
-  margin-left: 18px;
-  list-style-type: disc;
+  margin-left: 0;
+  list-style-type: none; /* Hide bullet points */
+  padding-left: 0;
 }
 
 .participant-badge {
@@ -176,4 +177,19 @@ footer {
   color: #888;
   font-style: italic;
   margin-left: 6px;
+}
+
+.delete-participant {
+  background: none;
+  border: none;
+  color: #c62828;
+  font-size: 16px;
+  margin-left: 8px;
+  cursor: pointer;
+  vertical-align: middle;
+  transition: color 0.2s;
+}
+
+.delete-participant:hover {
+  color: #ff5252;
 }
